@@ -4,7 +4,9 @@ import App from './App'
 import "@fontsource/inter"
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+const documentRoot = document.getElementById('root') as Element
+
+ReactDOM.createRoot(documentRoot).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>

@@ -1,4 +1,4 @@
-import { useGlobalState, GlobalStateProvider } from "./Context/GlobalStateProvider"
+import { GlobalStateProvider } from "./Context/GlobalStateProvider"
 import Header from "./Components/Header/Header"
 
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {

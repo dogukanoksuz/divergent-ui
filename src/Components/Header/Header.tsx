@@ -5,12 +5,10 @@ import { MoonIcon, SunIcon, SearchIcon } from '@heroicons/react/outline'
 import Logo from './Logo';
 import NavItem from './NavItem';
 
-interface IHeaderProps { }
-
-export default function Header(props: IHeaderProps) {
+export default function Header() {
   const { state, setState } = useGlobalState()
 
-  const handleModeSwitchClick = (setState: Function): void => {
+  const handleModeSwitchClick = (setState: React.Dispatch<React.SetStateAction<Partial<GlobalStateInterface>>>): void => {
     if ('theme' in localStorage) {
       setState({
         mode: localStorage.theme === 'dark' ? 'light' : 'dark'
@@ -26,6 +24,7 @@ export default function Header(props: IHeaderProps) {
   }
 
   // TODO (dogukanoksuz): Add mobile menu
+  // TODO (dogukanoksuz): Add search modal
   return (
     <header className="relative">
       <div className="max-w-6xl px-5 xl:px-0 mx-auto xl:py-14 lg:py-8 md:py-4 py-0">
@@ -33,7 +32,7 @@ export default function Header(props: IHeaderProps) {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="https://dogukan.dev">
               <span className="sr-only">Doğukan Öksüz</span>
-              <Logo mode={state.mode!} />
+              <Logo mode={state.mode ?? ''} />
             </a>
           </div>
 
@@ -46,7 +45,6 @@ export default function Header(props: IHeaderProps) {
             <a id="search" className="modal-open float-left p-2 whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               <SearchIcon className="w-6 h-6" />
             </a>
-
 
             <a onClick={() => handleModeSwitchClick(setState)} id="mode-switch" className=" float-left p-2 whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               {
