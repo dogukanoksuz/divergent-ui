@@ -6,9 +6,8 @@ import {
   Route,
 } from "react-router-dom"
 import App from './Components/App'
-import "@fontsource/inter"
-import './Styles/index.css'
 import Index from './Pages/Index'
+import './Styles/index.css'
 
 const documentRoot = document.getElementById('root') as Element
 

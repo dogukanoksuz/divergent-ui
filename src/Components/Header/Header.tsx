@@ -49,7 +49,7 @@ export default function Header() {
 
             <a onClick={() => handleModeSwitchClick()} id="mode-switch" className=" float-left p-2 whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               {
-                state.mode == 'dark' ? <MoonIcon className="w-6 h-6" /> : <SunIcon className="w-6 h-6" />
+                state.mode == 'dark' ? <SunIcon className="w-6 h-6" /> : <MoonIcon className="w-6 h-6" />
               }
             </a>
           </div>

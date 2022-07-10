@@ -24,42 +24,42 @@ export default class Index extends React.Component {
         image: "/src/Assets/test-thumbnail.jpg",
         title: "Golang Fiber ile Integration Test Geliştirmek",
         url: "#",
-        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl& nbsp;integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
+        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
         date: "20 Nisan 2022",
         author: "Doğukan Öksüz"
     }, {
         image: "/src/Assets/test-thumbnail.jpg",
         title: "Golang Fiber ile Integration Test Geliştirmek",
         url: "#",
-        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl& nbsp;integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
+        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
         date: "20 Nisan 2022",
         author: "Doğukan Öksüz"
     }, {
         image: "/src/Assets/test-thumbnail.jpg",
         title: "Golang Fiber ile Integration Test Geliştirmek",
         url: "#",
-        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl& nbsp;integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
+        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
         date: "20 Nisan 2022",
         author: "Doğukan Öksüz"
     }, {
         image: "/src/Assets/test-thumbnail.jpg",
         title: "Golang Fiber ile Integration Test Geliştirmek",
         url: "#",
-        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl& nbsp;integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
+        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
         date: "20 Nisan 2022",
         author: "Doğukan Öksüz"
     }, {
         image: "/src/Assets/test-thumbnail.jpg",
         title: "Golang Fiber ile Integration Test Geliştirmek",
         url: "#",
-        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl& nbsp;integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
+        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
         date: "20 Nisan 2022",
         author: "Doğukan Öksüz"
     }, {
         image: "/src/Assets/test-thumbnail.jpg",
         title: "Golang Fiber ile Integration Test Geliştirmek",
         url: "#",
-        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl& nbsp;integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
+        summary: "Bu makalemizde Golang üzerindeki Gofiber frameworkü üzerinde nasıl integration test geliştirebiliriz bu konu üzerine konuşacağız.Integration test nedir buna değinerek başlayabiliriz. Integration test nedir ? Integration test unitlerin birleştiğinde isten...",
         date: "20 Nisan 2022",
         author: "Doğukan Öksüz"
     }]
