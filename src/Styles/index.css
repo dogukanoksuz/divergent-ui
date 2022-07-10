@@ -6,4 +6,8 @@
     * {
         transition: all .2s;
     }
+
+    .my-background {
+        background-image: url('../Assets/bg.svg');
+    }
 }
